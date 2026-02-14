@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+ 
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Javascript Background Color Switcher</title>
+  </head>
+  <body style="background-color:#212120;color:#fff">
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Next page</a>
+    </nav>
+    <div id="wrapper">
+      <h1>Number Guessing Game</h1>
+      <p>Try to guess a number between 1 and 100.</p>
+      <p>You have total of 10 guesses,to predict the correct number.</p>
+        <form class="form">
+          <label for="guessfield" id="guess">Guess a number</label><br>
+          <input type="text" id="guessField"><br><br>
+          <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="resultParas">
+          <p> Previous Guesses:<span class="guesses"></span></p>
+          <p>Guesses Remaining:<span
+            class="lastResult">10</span></p>
+          <p class="lowOrHi"></p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
